@@ -355,11 +355,11 @@ const onEdit= (button, index) => {
   
       if (foundMatch) {
         tr[i].style.display = ""; // Show the row
-        err.innerHTML = "Search is Available";
+        // err.innerHTML = "Search is Available";
         // resetit();
       }
       else if(filter==""){
-        err.innerHTML = "";
+        // err.innerHTML = "";
 
       } 
       else {
@@ -370,7 +370,7 @@ const onEdit= (button, index) => {
         } else {
           tr[i].style.display = "none"; // Hide the data row
         }
-        err.innerHTML = "No search found";
+        // err.innerHTML = "No search found";
         // resetit();
       }
     }
